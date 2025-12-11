@@ -12,7 +12,7 @@ const Purchase = () => {
     { id: 'PO004', supplier: 'Mankind Pharma', items: 12, total: '₹18,200', date: '2025-12-05', status: 'In Transit', invoice: 'INV-2025-004' },
     { id: 'PO005', supplier: 'Zydus Healthcare', items: 22, total: '₹41,500', date: '2025-12-04', status: 'Received', invoice: 'INV-2025-005' },
   ];
-//changes done
+//changes
   const columns = [
     { header: 'Order ID', accessor: 'id' },
     { header: 'Supplier', accessor: 'supplier' },
